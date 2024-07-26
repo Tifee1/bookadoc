@@ -1,0 +1,82 @@
+export const dummyDoctors = [
+  {
+    name: 'Katherine Carroll, MD',
+    gender: 'female',
+    type: 'Primary Care Doctor',
+    address: '52087 Toney Neck Suite 296',
+    rating: '5.00',
+    reviews: '99',
+    images: [
+      'person-image-11.jpg',
+      'person-image-12.jpg',
+      'person-image-13.jpg',
+      'person-image-14.jpg',
+      'person-image-15.jpg',
+    ],
+
+    alreadyBooked: true,
+    canBeBooked: true,
+    hasBeenBookedBefore: false,
+  },
+  {
+    name: 'Steven Weiner, MD',
+    gender: 'male',
+    type: 'Primary Care Doctor',
+    address: '52087 Toney Neck Suite 296',
+    rating: '5.00',
+    reviews: '99',
+    images: [
+      'person-image-1.jpg',
+      'person-image-2.jpg',
+      'person-image-3.jpg',
+      'person-image-4.jpg',
+      'person-image-5.jpg',
+    ],
+
+    alreadyBooked: false,
+    canBeBooked: false,
+    hasBeenBookedBefore: true,
+  },
+  {
+    name: 'Dr. Anesa Dahly',
+    gender: 'female',
+    type: 'Primary Care Doctor',
+    address: '52087 Toney Neck Suite 296',
+    rating: '5.00',
+    reviews: '99',
+    images: [
+      'person-image-6.jpg',
+      'person-image-7.jpg',
+      'person-image-8.jpg',
+      'person-image-9.jpg',
+      'person-image-10.jpg',
+    ],
+    alreadyBooked: false,
+    canBeBooked: true,
+    hasBeenBookedBefore: false,
+  },
+  {
+    name: 'Olivia Rhye',
+    gender: 'female',
+    type: 'Primary Care Doctor',
+    address: '52087 Toney Neck Suite 296',
+    rating: '5.00',
+    reviews: '99',
+    images: [
+      'person-image-16.jpg',
+      'person-image-17.jpg',
+      'person-image-18.jpg',
+      'person-image-19.jpg',
+      'person-image-20.jpg',
+    ],
+    alreadyBooked: false,
+    canBeBooked: false,
+    hasBeenBookedBefore: false,
+  },
+]
+
+export const insuranceImage = [
+  'dyson-image.png',
+  'shield-image.png',
+  'axa-image.png',
+]
