@@ -28,7 +28,6 @@ const SingleDoctorInfo = ({ doctor, selected, setSelected, index }) => {
       onClick={() => setSelected(index)}
     >
       <DoctorInfoAlert doctor={doctor} />
-
       <Flex alignItems='start' mt={2} justifyContent='space-between'>
         <HStack alignItems='start' mt={2}>
           <Box
@@ -186,7 +185,7 @@ const SingleDoctorInfo = ({ doctor, selected, setSelected, index }) => {
         </HStack>
       </Flex>
       <Box borderBottom='0.5px solid #eee'></Box>
-      <DoctorDays />
+      {!doctor.alreadyBooked && <DoctorDays />}
     </Stack>
   )
 }
